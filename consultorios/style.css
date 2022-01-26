@@ -4,7 +4,7 @@
     padding: 0;
 }
 header{/*back-img, display, justify-c,al-itms,height*/                       /*GENERAL*/
-    background-image: url(./img/header.png) ;    /* imagen de rayitas de header */
+    background-image: url(./img/header2.png) ;    /* imagen de rayitas de header */
          display: flex;
          justify-content: space-around;
          align-items: center;
@@ -40,7 +40,7 @@ background: #E6DDD2;
 top: 10px;
 right: -300%;
 text-align: center;
-transition: all .6s;
+transition: all .5s;
 }
 nav #indice{
     display:block;
@@ -52,7 +52,6 @@ font-size: 20px;
 }
 li a:hover, li a:active{
     background: none;
-    color: #A4C3A8;
 }
 #check:checked ~ ul{
 right: 0;
@@ -62,17 +61,18 @@ right: 0;
 }
 /*fin menu hamburguesa*******************/
 main{ /*margin-top,  background-image,   margin-bottom*/         /*GENERAL*/
-    margin-top: 0;
-    background-image: url(./img/37974.png ); 
-    margin-bottom: 9%; 
+    margin-top: 0; 
 }
-
+body{
+    background-color:#bdb3a52a;  
+    padding-bottom: 50px; 
+}
 li{ /*display*/     /*GENERAL*/
     display: inline;
 }
 footer{/*color,backg-c,position,width, display,justify-content,position*/    /*GENERAL*/
     color: rgb(34, 28, 28) ;
-    background-image: url(./img/header.png);     /*imagen de rayitas en el footer*/
+    background-image: url(./img/header2.png);     /*imagen de rayitas en el footer*/
     position: fixed;
     width: 100%;
     display: flex;
@@ -83,19 +83,21 @@ footer{/*color,backg-c,position,width, display,justify-content,position*/    /*G
     bottom: 0;
      }
 .tablaP{/*margin*/    /*DE PRECIOS*/
-   margin-left: 20%;
+   margin-left: 5%;
 }
 a{ /*color* text-dec*/      /*DEL NAV*/
     color: rgb(34, 28, 28) ;
     text-decoration: none;
-    
 }
 /*LOGOS*/
 .facebook{/*color*/
     color:#166FE5
      }
 .instagram{/*color*/
-      color:#bd547c;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 11px;
      }
 .maps{/*color*/
          color:#aa2d22;
@@ -110,7 +112,7 @@ a{ /*color* text-dec*/      /*DEL NAV*/
         overflow-y:scroll;
         flex-wrap: nowrap;  
         height: 18%;
-        margin-left: 24%;
+        margin-left: 10%;
         margin-top: 30px;
        }
        .galeria__fotos{ /*fotos*/
@@ -128,16 +130,15 @@ a{ /*color* text-dec*/      /*DEL NAV*/
         background:none ;      /* color of the tracking area */
       }   
       .galeria::-webkit-scrollbar-thumb {
-        background-color: #E8E0D5; /* color of the scroll thumb */
+        background-color: bdb3a52a; /* color of the scroll thumb */
         border-radius: 20px;       /* roundness of the scroll thumb */
-        border: 3px solid #C8A492 ;/* creates padding around scroll thumb */
+        border: 3px solid #BCB6B0 ;/* creates padding around scroll thumb */
       }
 
     /*FIN SCROLLBAR*/
 
 /*Estructura GRID*//*MOBILE- GRID MOBILE- GRID MOBILE-MOBILE-GRID MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE*/
 .grid-container-padre>*{
-   box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
    border-radius: 4px;
    padding: 10px;
    text-align: center;
@@ -175,7 +176,8 @@ a{ /*color* text-dec*/      /*DEL NAV*/
     font-family:'Luxurious roman'; /* tipo de letra de toda la pagina*/ 
    }
 .checkbtn{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     cursor: pointer;
     display: none;
 }
@@ -235,21 +237,28 @@ a:hover,
 
  /*///////    /*hovers del footer*/       /*//////**/
    .facebook:hover{
-    color:#166FE5
+    color:#166FE5;
+    padding: 10px;
      }
      .instagram:hover{
-      color:#bd547c;
-     }
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 10px;
+    }
      .maps:hover{
          color:#aa2d22;
+         padding: 10px;
     }
     .whatsapp:hover{
       color:   #209c37;
+      padding: 10px;
     }
     .logosss{/*fb,Ig, gMaps*/
         height: 18px;
         width: 18px;
-        border-radius:  0%;;
+        border-radius:  0%;
     }
     ul{
         text-align: center;
@@ -274,6 +283,7 @@ img{
     height: 400px;
     object-fit: cover;
     border-radius: 100%;
+    border: solid #BCB6B0;
 }
 ul{display: flex;
     justify-content: space-around;
@@ -288,7 +298,12 @@ a{
     color: rgb(34, 28, 28) ;
     text-decoration: none;
 }
-                   
+.artFx{
+display: flex;
+flex-direction: row;
+flex-wrap:nowrap;
+align-content: space-around;
+}                   
 /*ESTRUCTURA GRID PC/////////////////////////////////////////////////////////////////////////////////////*/
 
 /******************************************************************************************************************/
@@ -325,15 +340,6 @@ a{
 
 /*/////*INDEX*//*//////////////////////////////////////////////////////////////////////////////////////////*/
     
-    .imgprin{
-        width:"450";
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        float: left;
-        margin-right: 55px;
-        margin-left: 15px;
-        }
     .cita1{/*parrafo*/
         text-align: start;
         font-size: 25px;
@@ -345,15 +351,19 @@ a{
     
     
 /*////////*QUIENES SOMOS?*//*//////////////////////////////////////////////////////////*/   
-    .imgqs{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        float: left;
+.article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+.imgqs{
         margin-right: 55px;
         margin-left: 7%
     }
     .cita{/*parrafo*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
             text-align: start;
             font-size: 25px;
             margin-bottom: 50px;    
@@ -365,12 +375,13 @@ a{
         display: flex;
         justify-content:flex-start;
         margin-top: 50px;
-        margin-left: 37%;
+        height: 10%;
+    
     }
 /*********PRECIOS***********************************************************************************************************/
 .tablaP{
     margin-top: 35px;
-    margin-left: 35%;
+    height:50%;
 }
     
 /*///////////*FOTOS*//****************************************************************************************/
@@ -418,10 +429,8 @@ a{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-top: 35px;
     }
     .part2form{
-        margin-top: 20px;
         font-weight: 800;
     }
     .infor{
