@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyrios Consultorios</title>
+  <!-- link CSS-->
+  <link rel="stylesheet" href="../style.css">
+  <!-- link de fuente-->
+  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+  <!--link de iconos fontawesome-->
+  <script src="https://kit.fontawesome.com/06beb26cc4.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="grid-container-padre">
+  <header class="header-hijo">
+    <h1>Kyrios Consultorios</h1>
+     <!--intento de menu hamburguesa-->   
+    <nav class="navbar-hijo">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars fa-2x"></i>
+        </label><!--/menu hamburguesa-->
+
+        <ul id="indice">
+          <li> <a href="../index.html"class="inicio">Inicio</a></li>
+          <li> <a href="./nosotros.html"class="nosotros">Nosotros</a></li>
+          <li><a href="./turnos.html"class="turnos">Turnos</a></li>
+          <li><a href="./precios.html"class="precios">Precios</a></li>
+          <li><a href="./fotos.html"class="fotos">Fotos</a></li>
+          <li><a href="./contacto.html"class="contacto">Contacto</a></li>
+      </ul>
+
+
+    </nav>
+  </header>
+  <main class="main-hijo">
+    <!--primer formulario-->
+    <h2>Contacto</h2>
+
+    <div class="imgqs">
+      <img src="../img/6730-doctores.jpg" alt="dr. con corbata">
+    </div>
+
+    <form class="formCont">
+      <ul>
+        <li>
+          <label for="name">Nombre: </label>
+          <input type="text" placeholder="Escribi tu nombre" id="name" class="campo">
+        </li>
+        <li>
+          <label for="apellido">Apellido: </label>
+          <input type="text" placeholder="Escribi tu apellido" id="apellido" class="campo">
+        </li>
+        <li>
+          <label for="email">Email: </label>
+          <input type="email" id="email" placeholder="Email" class="campo">
+        </li>
+
+        <!-- info de contacto-->
+
+      </ul>
+
+      <!--cierre de lista-->
+      <div class="part2form" class="formCont">
+        <div class="part2form">
+          <input type="radio" id="prof" name="seleccion" class="campo" value="profesional">
+          <label for="prof">Profesional</label>
+          <input class="campo" type="radio" id="pac" name="seleccion" value="paciente">
+          <label for="pac">Paciente</label>
+          <!-- checkbox-->
+
+          <!--mensaje-->
+
+          <textarea placeholder="Escribi aca tu mensaje"></textarea>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borra todo">
+
+          <ul class="infor">
+            <li>Cel: 341-3923421</li>
+            <li>consultorioskyrios@gmail.com</li>
+          </ul>
+        </div>
+
+    </form>
+  </main>
+  <footer class="footer-hijo">
+    <ul>
+      <li> <a href="https://www.facebook.com" target="_blank" class="facebook"><i
+            class="fab fa-facebook-square fa-2x"></i>Facebook</li>
+      <li> <a href="https://www.instagram.com" target="_blank" class="instagram"><i
+            class="fab fa-instagram fa-2x"></i>Instagram</a></li>
+      <li> <a href="https://www.google.com.ar/maps" target="_blank" class="maps"><i
+            class="fas fa-map-marker-alt fa-2x"></i>Google Maps</a></li>
+      <li><a href="https://web.whatsapp.com/" target="_blank" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i>
+          Whatsapp</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

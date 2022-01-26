@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyrios Consultorios</title>
+    <!-- link CSS-->
+    <link rel="stylesheet" href="../style.css">
+    <!--link de iconos fontawesome-->
+    <script src="https://kit.fontawesome.com/06beb26cc4.js" crossorigin="anonymous"></script>
+    <!-- link de fuente-->
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+</head>
+
+<body class="grid-container-padre">
+    <!--inicio del header-->
+    <header class="header-hijo">
+        <h1>Kyrios Consultorios</h1>
+         <!--intento de menu hamburguesa-->   
+         <nav class="navbar-hijo">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars fa-2x"></i>
+        </label><!--/menu hamburguesa-->
+        
+           <!--lista-->
+        <ul id="indice">
+            <li> <a href="../index.html"class="inicio">Inicio</a></li>
+            <li> <a href="./nosotros.html"class="nosotros">Nosotros</a></li>
+            <li><a href="./turnos.html"class="turnos">Turnos</a></li>
+            <li><a href="./precios.html"class="precios">Precios</a></li>
+            <li><a href="./fotos.html"class="fotos">Fotos</a></li>
+            <li><a href="./contacto.html"class="contacto">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+    <!--fin del header-->
+
+    <main class="main-hijo">
+        <h2>Turnos Online</h2>
+            <img src="../img/6721-doctores.jpg" alt="Consultorios Kyrios" class='imgqs'>
+
+            <article class="sacarturno">
+
+
+                <label for="calendar"> Fecha </label>
+                <input type="date" id="calendar" min="2022-01-01" max="2022-01-10">
+
+                <label for="hora">Horario</label>
+                <input type="time" id="hora" min="14:00" max="20:30" required>
+
+                <input type="button" value="submit" id="enter">
+                <!-- turnos del 1 al 10 de enero-->
+            </article>
+       
+    </main>
+    <footer class="footer-hijo">
+        <ul>
+            <li> <a href="https://www.facebook.com" target="_blank" class="facebook"><i
+                        class="fab fa-facebook-square fa-2x"></i>Facebook</li>
+            <li> <a href="https://www.instagram.com" target="_blank" class="instagram"><i
+                        class="fab fa-instagram fa-2x"></i>Instagram</a></li>
+            <li> <a href="https://www.google.com.ar/maps" target="_blank" class="maps"><i
+                        class="fas fa-map-marker-alt fa-2x"></i>Google Maps</a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank" class="whatsapp"><i
+                        class="fab fa-whatsapp fa-2x"></i> Whatsapp</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
