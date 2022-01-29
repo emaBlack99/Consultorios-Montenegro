@@ -185,13 +185,15 @@ a{ /*color* text-dec*/      /*DEL NAV*/
 #check{
     display:none;
 }
-body{/*background*/
-   background-color:#bdb3a52a;
-/* background-image: url(./img/37974.png )  ;             /*imagen alfombra de fondo*/
-    background-repeat: no-repeat;
+body{
+  background-color:#bdb3a52a;
+  
+ /*background-image: url(./img/37974.png )  ;  */           /*imagen alfombra de fondo*/
+   background-repeat: no-repeat;
     background-size:cover;
-    min-height: 100%;
+    
 }
+
 header{ /*background, position y medidas*/
    background-image: url(./img/header2.png);                 /* imagen de rayitas de header */
         width: 100%;
