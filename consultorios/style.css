@@ -118,7 +118,7 @@ a{ /*color* text-dec*/      /*DEL NAV*/
        }
        .galeria__fotos{ /*fotos*/
         height: 300px;
-        width: 300px;
+        width: 299px;
         margin: 5px;
         object-fit:cover;
         border: solid black;
@@ -185,6 +185,7 @@ a{ /*color* text-dec*/      /*DEL NAV*/
 #check{
     display:none;
 }
+<<<<<<< HEAD
 body{
   background-color:#bdb3a52a;
   
@@ -192,6 +193,29 @@ body{
    background-repeat: no-repeat;
     background-size:cover;
     
+=======
+body{/*background*/
+/*   background-color:#bdb3a52a;*/
+/* background-image: url(./img/37974.png )  ;             /*imagen alfombra de fondo*/
+/*    background-repeat: no-repeat;
+    background-size:cover;*/
+    min-height: 100%;
+    background: linear-gradient(-45deg, #BDB2A4, #F5F5F5,#C9BFAF, #7D766D);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+>>>>>>> RamaAlterna
 }
 
 header{ /*background, position y medidas*/
