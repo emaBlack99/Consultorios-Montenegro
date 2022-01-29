@@ -185,15 +185,7 @@ a{ /*color* text-dec*/      /*DEL NAV*/
 #check{
     display:none;
 }
-<<<<<<< HEAD
-body{
-  background-color:#bdb3a52a;
-  
- /*background-image: url(./img/37974.png )  ;  */           /*imagen alfombra de fondo*/
-   background-repeat: no-repeat;
-    background-size:cover;
-    
-=======
+
 body{/*background*/
 /*   background-color:#bdb3a52a;*/
 /* background-image: url(./img/37974.png )  ;             /*imagen alfombra de fondo*/
@@ -215,7 +207,6 @@ body{/*background*/
 	100% {
 		background-position: 0% 50%;
 	}
->>>>>>> RamaAlterna
 }
 
 header{ /*background, position y medidas*/
