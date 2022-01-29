@@ -118,7 +118,7 @@ a{ /*color* text-dec*/      /*DEL NAV*/
        }
        .galeria__fotos{ /*fotos*/
         height: 300px;
-        width: 300px;
+        width: 299px;
         margin: 5px;
         object-fit:cover;
         border: solid black;
