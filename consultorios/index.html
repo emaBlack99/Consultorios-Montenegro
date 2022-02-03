@@ -6,28 +6,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyrios Consultorios</title>
+     <!--link de Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
     <!-- link CSS-->
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
     <!-- link de fuente-->
     <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
     <!--link de iconos fontawesome-->
     <script src="https://kit.fontawesome.com/06beb26cc4.js" crossorigin="anonymous"></script>
+   <!--CSS temporal para aplicar bootstrap-->
+    <link rel="stylesheet" href="../consultorios/paginas/btsp.css">
    
 </head>
 
-<body class="grid-container-padre">
-    <!--inicio del header-->
-    <header class="header-hijo">
-        <h1 >Kyrios Consultorios</h1>
-    <!--intento de menu hamburguesa-->   
-    <nav class="navbar-hijo">
+<body  class="grid-container-padre">
+
+<!---------------------HEADER BOOTSTRAP------------------------------------>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a  class="navbar-brand" href="#">Kyrios Consultorios</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-end w-100">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/turnos.html">Turnos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/fotos.html">Fotos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/precios.html">Precios</a>
+                  </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!------------------------------HOME------------------------->
+<section class="container" id="portada"> 
+    <div class="row">
+<h2 class="d-none d-sm-none d-md-block text-center">Bienvenidos</h2>
+    <img class=" mt-3 mt-lg-0 col-12 col-lg-4" src="./img/89808-dentistas.jpg" alt="Consultorios Kyrios" >
+    <h2 class="d-block d-sm-block d-md-none text-center lg-block" >Bienvenidos</h2>
+    <p class="col-12 col-lg-8" class="cita1" class="artF" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis neque quisquam iusto suscipit, doloribus tempora mollitia ex nam harum voluptas at sequi aliquam iure asperiores voluptatem? Cupiditate, doloremque explicabo?
+        Nobis provident vitae placeat expedita delectus nisi ratione quidem. Adipisci, facere eius aut quibusdam esse aspernatur, natus rem iste illo iusto sint, molestiae enim rerum a! Aspernatur amet deleniti nemo?
+        Porro ducimus quidem atque enim quam exercitationemdfg similique quibusdam laboriosam modi, corporis aliquid iure expedita, error, dignissimos molestias ipsam cumque nesciunt vitae minus quisquam facere excepturi! Fugiat, sapiente praesentium! Suscipit!
+        Lorem ipsum dovdsdclor sit amet consectetudfvkdhfvksdjnvkjsndkjncksdjnckjr adipisicing elit. Doloremque, mollitia perferendis dolores exercitationem repudiandae reiciendis incidunt fuga architecto vel voluptates maiores dolore repellendus labore rem assumenda repellat earum vitae aspernatur.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam tempore repellendus inventore quidem maiores? Doloremque, dignissimos sit animi, nam maiores eaque deleniti recusandae esse quaerat nihil, saepe a iste?
+    
+</p>
+
+    </div>
+</section>
+<!------------------------------FOOTER CON BOOTSTRAP -->
+<footer class=" text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3 text-black" style="background-image: url(./img/header2.png)">
+      © 2022 Emanuel Montenegro:
+      <a class="text-black" href="https://mdbootstrap.com/">montenegroemanuelsaxofonista@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+
+<!----------------------FOOTER BOOTSTRAP FIN----------------------------->
+
+    <!--inicio del header SIN BOOTSTRAP------------------------------------------
+    <header class="container-fluid" class="header-hijo" >
+        <section class="row">
+        <h1 class="col-6" >Kyrios Consultorios</h1>
+    intento de menu hamburguesa-  
+   <nav class="col-6" class="my-center"  class="navbar-hijo" >
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars fa-2x"></i>
-        </label><!--/menu hamburguesa-->
+        </label>--><!--/menu hamburguesa--> <!--Bootstarap-->
 
-        <!--lista-->
-        <ul id="indice">
+        <!--lista--
+        <ul class="list-unstyled" id="indice">
             <li> <a href="index.html"class="inicio">Inicio</a></li>
             <li> <a href="./paginas/nosotros.html"class="nosotros">Nosotros</a></li>
             <li><a href="./paginas/turnos.html"class="turnos">Turnos</a></li>
@@ -36,37 +148,30 @@
             <li><a href="./paginas/contacto.html"class="contacto">Contacto</a></li>
         </ul>
     </nav>
+</section>
 </header> 
-    <!-- Fin del header-->
+    ----------------- Fin del header-->
 
-    <main class="main-hijo"class="marg1y2">
-       <h2 >Bienvenidos</h2> 
-        <article class="artFx"> 
         
-            <!-- imagen-->
-           <img src="./img/89808-dentistas.jpg" alt="Consultorios Kyrios" class='imgqs'class="artF">
-            <p class="cita1" class="artF"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis neque quisquam iusto suscipit, doloribus tempora mollitia ex nam harum voluptas at sequi aliquam iure asperiores voluptatem? Cupiditate, doloremque explicabo?
-            Nobis provident vitae placeat expedita delectus nisi ratione quidem. Adipisci, facere eius aut quibusdam esse aspernatur, natus rem iste illo iusto sint, molestiae enim rerum a! Aspernatur amet deleniti nemo?
-            Porro ducimus quidem atque enim quam exercitationemdfg similique quibusdam laboriosam modi, corporis aliquid iure expedita, error, dignissimos molestias ipsam cumque nesciunt vitae minus quisquam facere excepturi! Fugiat, sapiente praesentium! Suscipit!
-            Lorem ipsum dovdsdclor sit amet consectetudfvkdhfvksdjnvkjsndkjncksdjnckjr adipisicing elit. Doloremque, mollitia perferendis dolores exercitationem repudiandae reiciendis incidunt fuga architecto vel voluptates maiores dolore repellendus labore rem assumenda repellat earum vitae aspernatur.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam tempore repellendus inventore quidem maiores? Doloremque, dignissimos sit animi, nam maiores eaque deleniti recusandae esse quaerat nihil, saepe a iste?
-     
-            
-   
-        
-    </p>
-        
-    </article> 
+  <!--  </article>    del CSS original              -->
+      <!--  </section>
 </main>
-<footer class="footer-hijo">
-    <ul>
+<footer class="fixed-bottom" class="footer-hijo">
+    <ul >
             <li> <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook-square fa-2x"></i>Facebook</li>
             <li> <a href="https://www.instagram.com" target="_blank"class="instagram"><i class="fab fa-instagram fa-2x"></i>Instagram</a></li>
             <li> <a href="https://www.google.com.ar/maps" target="_blank"class="maps"><i class="fas fa-map-marker-alt fa-2x"></i>Google Maps</a></li>
             <li><a href="https://web.whatsapp.com/" target="_blank" class="whatsapp"><i class="fab fa-whatsapp fa-2x"></i> Whatsapp</a></li>
         </ul>
     </footer>
+-->
 
+
+
+
+    <!--link Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>

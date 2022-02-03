@@ -168,7 +168,6 @@ a{ /*color* text-dec*/      /*DEL NAV*/
 }/*fin @query*/
 
 
-
 @media (min-width:800px){/*pc*//*mas de 800px*/
  /*GENERAL*************PC-PC-PC-PC-PC-PC-PC-PC-PC-PC-PC-PC-PC-PC***********************************************************************************************/  
  *{/*margin,padding,font-family*/
@@ -187,9 +186,9 @@ a{ /*color* text-dec*/      /*DEL NAV*/
 }
 
 body{/*background*/
-/*   background-color:#bdb3a52a;*/
-/* background-image: url(./img/37974.png )  ;             /*imagen alfombra de fondo*/
-/*    background-repeat: no-repeat;
+  /* background-color:#bdb3a52a;
+ background-image: url(./img/37974.png )  ;             /*imagen alfombra de fondo*/
+   /* background-repeat: no-repeat;
     background-size:cover;*/
     min-height: 100%;
     background: linear-gradient(-45deg, #BDB2A4, #F5F5F5,#C9BFAF, #7D766D);
@@ -210,7 +209,7 @@ body{/*background*/
 }
 
 header{ /*background, position y medidas*/
-   background-image: url(./img/header2.png);                 /* imagen de rayitas de header */
+        background-image: url(./img/header2.png);                 /* imagen de rayitas de header */
         width: 100%;
         height: 10%;
         position:fixed;
@@ -231,9 +230,10 @@ header{ /*background, position y medidas*/
         background-image: url(./img/header2.png);     /*imagen de rayitas en el footer*/
         position: fixed;
         width: 100%;
+        height: 8%;
         display: flex;
         justify-content:center;
-        bottom: 2%;
+        bottom: 1%;
          }
 
 
@@ -274,14 +274,14 @@ a:hover,
       padding: 10px;
     }
     .logosss{/*fb,Ig, gMaps*/
-        height: 18px;
+       height: 18px;
         width: 18px;
         border-radius:  0%;
     }
     ul{
         text-align: center;
     }    
-/*///////   /*fin hovers*/   /*////////*****/
+/*//////   /*fin hovers*/   /*////////*****/
 
 
 #indice{/*inicio, qs? contc, etc...*/
@@ -337,8 +337,7 @@ align-content: space-around;
 }
 .main-hijo{
     grid-area: main; ;             /*imagen alfombra de fondo*/
-}
-.footer-hijo{
+}.footer-hijo{
     grid-area: footer;  
 }
 .grid-container-padre{
@@ -389,7 +388,7 @@ align-content: space-around;
             margin-right:15px;
     }  
 /********//*TURNOS*//***************************************************************************************/
-    .sacarturno{
+  .sacarturno{
         display: flex;
         justify-content:flex-start;
         margin-top: 50px;
@@ -402,7 +401,7 @@ align-content: space-around;
     height:50%;
 }
     
-/*///////////*FOTOS*//****************************************************************************************/
+/*--------------/*FOTOS*//****************************************************************************************/
     .galeria{
         display: flex; 
         flex-direction: row;
