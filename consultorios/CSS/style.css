@@ -1,0 +1,59 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+body {
+  min-height: 100%;
+  background: linear-gradient(-45deg, #BDB2A4, #F5F5F5, #C9BFAF, #7D766D);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh; }
+
+.fecha {
+  margin-top: 30px; }
+
+nav li a:hover {
+  background-color: #BEB3A3;
+  text-decoration: underline;
+  transition: 0.8s; }
+
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover; }
+
+li {
+  display: inline; }
+
+nav {
+  background-image: url(../img/header2.png); }
+
+/*lista*/
+/*3*/
+h1 {
+  font-family: comic sans; }
+
+/*Mapa*/
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 40px; }
+
+#cita1 {
+  font-size: 28px; }
+
+#cita2 {
+  font-size: 27px; }
+
+h1, h2, h3 {
+  color: rgba(129, 84, 63, 0.932);
+  font-size: 40px; }
+
+@media only screen and (max-width: 500px) {
+  h1, h2, h3 {
+    color: black; } }

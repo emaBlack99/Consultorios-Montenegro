@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyrios Consultorios</title>
+    <title>Kyrios Cons. | Turnos</title>
+          <!--SEO-->
+          <meta name="keywords" content="consultorios, odontologia,saca turno, online, disponible, agotado, lugar, turnos, turno online, atencion, consultorios odontologicos, inicio,  medicina, psicologia, salud, salud mental, clinica, pediatria, traumatologia, traumatologo, bienestar" >
+          <meta name="description" content="KYRIOS CONSULTORIOS. Te ofrecemos la mayor comodidad para que puedas sacar tu Turno Online, o llamando a nuestro telefono +54-3413923421"> 
      <!--link de Bootstrap-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
     <!--CSS temporal para aplicar bootstrap-->
     <!--<link rel="stylesheet" href="./paginas/btsp.css"-->
      <!-- link CSS-->
-    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <!-- link de fuente-->
     <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
     <!--link de iconos fontawesome-->
@@ -41,9 +44,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./turnos.html">Turnos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./fotos.html">Fotos</a>
-              </li>
+         
               <li class="nav-item">
                 <a class="nav-link" href="./contacto.html">Contacto</a>
                 </li>
@@ -83,17 +84,32 @@
 
 
     ----------------------------------FIN HEADER SIN BOOTSTRAP---------------------------------------->
+ 
+
 <!-- --------------------------turnos -->
     <main class="main-hijo">
       <section class="container" id="turnos">
       <div class="row">
         <h2 class="d-none d-sm-none d-md-block text-center">Turnos Online</h2>
-      
+
+
+
             <img  class=" mt-3 mt-lg-0 col-12 col-lg-4" src="../img/6721-doctores.jpg" alt="Consultorios Kyrios" class='imgqs'class="artF">
-            <h2 class="d-block d-sm-block d-md-none text-center lg-block" >Turnos Online</h2>
+ <h2 class="d-block d-sm-block d-md-none text-center lg-block" >Turnos Online</h2>
+
+ <div class="form-floating col-12 col-lg-6">
+  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option selected>Psicologia</option>
+    <option value="1">Dermatologia</option>
+    <option value="2">Traumatologia</option>
+    <option value="3">Pediatria</option>
+    <option value="4">Odontologia</option>
+  </select>
+  <label for="floatingSelect">Especialidades</label>
+
           
 
-<article class="col-12 col-lg-8">
+<article class="col-12 col-lg-10 mt-3">
                 <label for="calendar"> Fecha </label>
                 <input type="date" id="calendar" min="2022-01-01" max="2022-01-10">
 
@@ -108,7 +124,7 @@
     </main>
 
 
-
+  </div>
 
 
     <!--------------------FOOTER SIN BOOTSTRAP-----------------

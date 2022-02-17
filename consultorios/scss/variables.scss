@@ -1,0 +1,12 @@
+/*lista*/
+
+$tipografias:
+arial,/*1*/
+times new roman,/*2*/
+comic sans;/*3*/
+
+h1{
+  font-family: nth($tipografias, 3);
+}
+
+

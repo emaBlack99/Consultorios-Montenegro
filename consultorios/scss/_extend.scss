@@ -1,0 +1,9 @@
+%titulos{
+color:rgba(129, 84, 63, 0.932);
+font-size: map-get($tamaniosLetras,XL );
+
+}
+
+h1, h2, h3{
+    @extend %titulos
+}

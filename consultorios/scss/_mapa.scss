@@ -1,0 +1,23 @@
+
+/*Mapa*/
+$tamaniosLetras: (
+    XL:40px,
+    L:35px,
+    M:28px,
+    S:27px,
+    xs:20px
+);
+
+
+h2{
+    font-size: map-get($tamaniosLetras, XL );
+  }
+  h3{
+    font-size: map-get($tamaniosLetras, XL );
+  }
+  #cita1{
+    font-size: map-get($tamaniosLetras, M);
+  }
+  #cita2{
+    font-size: map-get($tamaniosLetras, S );
+  }

@@ -1,0 +1,19 @@
+.En los keywords use palabras en común en todas las paginas y agregue mas palabras relacionadas a cada pagina en especifico.
+.Describi cada pagina con informacion util referida al contenido de cada una.
+.Cambie ls titulos, antes todos decian Kyriros Consultorios, ahora solo el index quedo con ese titulo y los demas con una abreviacion, Kyrios Cons. | (y el nombre de la pag.)
+.Los encabezados no los toque porque ya tienen un orden de estructura.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
