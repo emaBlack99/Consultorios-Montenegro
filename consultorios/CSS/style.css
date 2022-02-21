@@ -21,11 +21,11 @@ nav li a:hover {
   text-decoration: underline;
   transition: 0.8s; }
 
-img {
-  height: 300px;
-  width: 300px;
-  object-fit: cover; }
-
+/*img{
+    height: 300px;
+    width: 300px;
+     object-fit: cover;
+}*/
 li {
   display: inline; }
 
@@ -57,3 +57,7 @@ h1, h2, h3 {
 @media only screen and (max-width: 500px) {
   h1, h2, h3 {
     color: black; } }
+
+@media (min-width: 799px) {
+  #carouselExampleFade {
+    margin-left: 150px; } }
