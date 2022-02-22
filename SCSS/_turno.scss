@@ -1,0 +1,48 @@
+#calendar{
+    width: 856px;
+    padding: 13px;
+    text-align: center;
+   font-size:18px;
+}
+#hora{
+    margin-top: 15px;
+    width: 856px;
+    padding: 13px;
+    text-align: center;
+   font-size:18px;
+}
+
+#enter {
+  
+    background-color: white;
+    color: black;
+    border: 3px solid rosybrown; /* Green */
+    border-radius: 10px;
+    margin-top: 18px;
+    height: 50px;
+    width: 100px;
+    
+}
+#enter:hover{
+background-color: rosybrown;
+color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+#sinitem{
+    list-style: none;
+}
+
+#m-lista{
+    margin-left: 100px;
+    margin-right:600px ;
+}
+#imgqss{
+    height: 300px;
+    width: 300px;
+     object-fit: cover;
+     border-radius: 100%;
+     border: solid rosybrown;
+     padding: 5px;
+     margin-left: 150px;
+}
