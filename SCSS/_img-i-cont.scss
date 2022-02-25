@@ -1,0 +1,20 @@
+#img-i-cont{
+    height: 300px;
+    width: 300px;
+     object-fit: cover;
+     border-radius: 100%;
+     border: solid rosybrown;
+     padding: 5px;
+     -webkit-filter: grayscale(40%);
+	filter: grayscale(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#img-i-cont:hover{
+    height: 370px;
+    width: 370px;
+    transition: 0.8s;
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
