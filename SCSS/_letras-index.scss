@@ -1,14 +1,15 @@
-#letras-index{
+.letras-index{
     font-size: map-get($tamaniosLetras , xs );
 }
 
-#ancores{
+.ancores{
   
   text-decoration: none;  
   color:rosybrown ;
  
 }
-#ancores:hover{
+.ancores:hover{
+  color: rosybrown;
 text-decoration: underline;
 font-size: 23px;
 }

@@ -30,7 +30,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Kyrios Consultorios</a>
+      <h1 class=" display-6">Kyrios Consultorios</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -65,11 +65,11 @@
     <h2 class="text-center">Turnos Online</h2>
 
 
-    <section class="container" >
+    <section class="container">
       <div class="row">
 
         <div class="mt-3 mt-lg-0   col-12 col-lg-4   d-flex justify-content-center">
-          <img src="../img/6721-doctores.jpg" alt="Consultorios Kyrios" id="imgqs">
+          <img src="../img/6721-doctores.jpg" alt="Consultorios Kyrios" class="imgqs">
         </div>
 
 
@@ -82,25 +82,25 @@
             <option value="4">Odontologia</option>
           </select>
           <label for="floatingSelect">Especialidades</label>
-        
+
 
           <div class="col-12 col-lg-8 mt-3  ">
             <label class="text-center" for="calendar"></label>
             <input type="date" id="calendar" min="2022-01-01" max="2022-01-10">
-          
 
-          
+
+
             <label for="hora"></label>
             <input type="time" id="hora" min="14:00" max="20:30" required>
-          
+
 
           </div>
-            <input type="button" value="submit" id="enter">
-            <!-- turnos del 1 al 10 de enero-->
-          </div>
+          <input type="button" value="submit" id="enter">
+          <!-- turnos del 1 al 10 de enero-->
         </div>
+      </div>
 
-        
+
 
       </div>
     </section>
@@ -110,57 +110,67 @@
   <h3 class="text-center">Horarios</h3>
 
 
-  <section class="container" id="m-lista">
-<div class="row">
-  <div class="col-12 col-lg-8 d-flex justify-content-center">
+  <section class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 d-flex justify-content-center">
 
-<ul  id="sinitem">
-<li><h4>Psicologia | Dr. Housevic</h4></li>
-<li>Lunes a Viernes de 16:00hs a 21:30hs </li>
-<hr>
-<li><h4>Dermatologia | Dra. Steward</h4></li>
-<li>Lunes a Miercoles de 17:00hs a 21:30hs y de jueves a sabado de 09:00hs a 14:00hs</li>
-<hr>
-<li><h4>Traumatologia | Dr. Schupp</h4></li>
-<li>Lunes a Sabados de 08:00hs a 15:30hs</li>
-<hr>
-<li><h4>Pediatria | Dra. Torres</h4></li>
-<li>Lunes a Viernes de 13:00hs a 19:30hs </li>
-<hr>
-<li><h4>Odontologia | Dr. Van Hooten</h4></li>
-<li>Martes y Jueves de 14:00hs a 21:30hs y Sabados desde las 08:00hs hasta las 15:30hs</li>
-</ul>
-</div>
+        <ul class="sinitem">
+          <li>
+            <h4>Psicologia | Dr. Housevic</h4>
+          </li>
+          <li>Lunes a Viernes de 16:00hs a 21:30hs </li>
+          <hr>
+          <li>
+            <h4>Dermatologia | Dra. Steward</h4>
+          </li>
+          <li>Lunes a Miercoles de 17:00hs a 21:30hs y de jueves a sabado de 09:00hs a 14:00hs</li>
+          <hr>
+          <li>
+            <h4>Traumatologia | Dr. Schupp</h4>
+          </li>
+          <li>Lunes a Sabados de 08:00hs a 15:30hs</li>
+          <hr>
+          <li>
+            <h4>Pediatria | Dra. Torres</h4>
+          </li>
+          <li>Lunes a Viernes de 13:00hs a 19:30hs </li>
+          <hr>
+          <li>
+            <h4>Odontologia | Dr. Van Hooten</h4>
+          </li>
+          <li>Martes y Jueves de 14:00hs a 21:30hs y Sabados desde las 08:00hs hasta las 15:30hs</li>
+        </ul>
+      </div>
 
-<div class="col-12 col-lg-4   d-flex justify-content-center           ">
-  <img id="imgqs" src="../img/89830-dentistas.jpg" alt="dentista">
-</div>
+      <div class="col-12 col-lg-4   d-flex justify-content-center           ">
+        <img class="imgqs" src="../img/89830-dentistas.jpg" alt="dentista">
+      </div>
 
-</div>
-</section>
-  
+    </div>
+  </section>
+
 
   <!------------------------------FOOTER CON BOOTSTRAP -->
-  <footer class=" text-center text-white">
+  <footer class=" text-center text-white foot-img">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
-          href="https://web.facebook.com/?_rdc=1&_rdr" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a id="b-face" class="btn  m-1 botones-fot" href="https://web.facebook.com/?_rdc=1&_rdr" role="button"><i
+            class="fab fa-facebook-f"></i></a>
 
         <!-- Google -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
-          href="https://www.google.com.ar/maps" role="button"><i class="fab fa-google"></i></a>
+        <a id="b-goog" class="btn  m-1 botones-fot" href="https://www.google.com.ar/maps" role="button"><i
+            class="fab fa-google"></i></a>
 
         <!-- Instagram -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="https://www.instagram.com"
-          role="button"><i class="fab fa-instagram"></i></a>
+        <a id="b-inst" class="btn  m-1 botones-fot" href="https://www.instagram.com" role="button"><i
+            class="fab fa-instagram"></i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/"
-          role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a id="b-link" class="btn  m-1 botones-fot" href="https://www.linkedin.com/" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
 
       </section>
       <!-- Section: Social media -->
@@ -168,13 +178,12 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3 text-black" style="background-image: url(../img/header2.png);">
+    <div class="text-center p-3 text-black backfoot ">
       © 2022 Emanuel Montenegro:
       <a class="text-black" href="https://mdbootstrap.com/">montenegroemanuelsaxofonista@gmail.com</a>
     </div>
     <!-- Copyright -->
   </footer>
-
 
   <!----------------------FOOTER BOOTSTRAP FIN----------------------------->
 

@@ -1,6 +1,6 @@
 
 @media (max-width:599px){/*0 a 600px*/
-    #imgs-carousel{
+    .imgs-carousel{
         margin-left:20px;
         width: 90%;
         height: 50%;
@@ -8,7 +8,7 @@
 }
 @media (min-width:600px){/*601 a 799px*/
 
-    #imgs-carousel{
+    .imgs-carousel{
         margin-left:40px;
         width: 10%;
         height: 400px;
@@ -16,7 +16,7 @@
 }
 @media (min-width:800px){/*800 hacia arriba*/
 
-    #imgs-carousel{
+    .imgs-carousel{
         margin-left:0px;
         margin-right:100px;
         width: 800px;
